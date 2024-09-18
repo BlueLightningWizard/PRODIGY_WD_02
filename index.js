@@ -136,7 +136,7 @@ function Record_Lap()
                     " : " + String(tot_sc).padStart(2, "0") + " : " + String(tot_msc).padStart(2, "0");
     row.appendChild(lap_3);
 
-    lap.appendChild(row);
+    laps.appendChild(row);
 
     hr = 0;
     mn = 0;
