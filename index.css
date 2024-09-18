@@ -1,0 +1,156 @@
+body
+{
+    margin: 0 0 0 0;
+
+    background-color: lightyellow;
+    
+    text-align: center;
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    left : 0;
+
+    background-color: lightskyblue;
+
+    width: 100%;
+    height: 20%;
+
+    text-align: left;
+}
+
+nav img
+{
+    max-height: 100%;
+}
+
+.button
+{
+    height: 6vh;
+    width: 15vw;
+
+    justify-content: center;
+    align-items: center;
+
+    font: bold 2vh Times New Roman, serif;
+
+    text-align: center;
+
+    border-radius: 1vw;
+
+    margin-top: 3vh;
+}
+
+.stopwatch
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-top: 25vh;
+}
+
+.row
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font: 7vh Times New Roman, serif;
+}
+
+@font-face 
+{
+    font-family: "digital clock";
+    src: url("digital-dream.regular.ttf");
+}
+
+.timer
+{
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 12vh;
+    width: 8vw;
+
+    font: bold 5vh digital clock;
+    text-align: center;
+
+    border: solid 0.7vw skyblue;
+    border-radius: 0.7vw;
+
+    background-color: darkgray;
+
+    color: darkslategray;
+}
+
+#lap_header
+{
+    font: bold 2vw Times New Roman, serif;
+
+    text-align: center;
+    color: sandybrown;
+
+    margin-top: 10vh;
+}
+
+.lap_header_col
+{
+
+    display: inline-flex;
+
+    height: 6vh;
+    width: 20vw;
+
+    justify-content: center;
+    align-items: center;
+
+    font: bold 3vh Times New Roman, serif;
+
+    text-align: center;
+
+    border: solid 0.7vw darkgray;
+    border-radius: 0.5vw;
+
+    color: gray;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 1vw;
+}
+
+.laps
+{
+    display: inline-flex;
+
+    height: 6vh;
+    width: 20vw;
+
+    justify-content: center;
+    align-items: center;
+
+    font: italic 3vh Times New Roman, serif;
+
+    text-align: center;
+
+    border: solid 0.5vw darkgray;
+    border-radius: 0.5vw;
+
+    color: gray;
+
+    margin-top: 3vh;
+    margin-right: 1vw;
+}
+/*
+{
+    border: solid 2px green;
+}
